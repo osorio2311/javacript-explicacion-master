@@ -5,10 +5,55 @@ Hoja de estilo comun para todos los proyectos
     box-sizing: border-box;
 }
 body{
-    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
     margin: 0;
     padding: 0;
+    background-color: #f3b9b9;
 }
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #e25a5a;
+    align-items: center;
+    padding: 50px;
+    border-radius: 30px;
+    box-shadow: 3px 3px 5px 3px rgb(235, 59, 88);
+    max-width: 700px;
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+
+.mensaje{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.boton{
+    margin-top: 20px;
+}
+
+
+.label{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.mensajeError{
+    color: red;
+}
+
+fieldset{
+    width: 100%;
+}
+
+
+
 
 .col-1{
     width: 8.33%;
@@ -47,19 +92,6 @@ body{
      width: 100%;
  }
 
- h2{
-    color: red;
- }
-
- .row{
-    width: auto;
-    background-color: gray;
- }
-
-
-
-
-
 @media only screen and (width<=768px){
     [class*="col-"]{
         width: 100%;
@@ -80,3 +112,9 @@ body{
     }
 
 }
+
+
+
+
+
+

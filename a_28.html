@@ -8,31 +8,34 @@
     <title>Análisis de la Edad</title>
 </head>
 <body>
-    <div class="row col-6">
+    <div class="container row col-6">
         <h2>Ingrese los siguientes datos:</h2>
         <div class="col-6">
-            <label for="nombre">Nombre</label>
+            <label for="nombre"class="label">Nombre</label>
         </div>
         <div class="col-6">
-            <input type="text" id="nombre" name="nombre" class="col-8">
+            <input type="text" id="nombre" name="nombre" class="col-10">
         </div>
 
 
         <div class="col-6">
-            <label for="edad">Edad</label>
+            <label for="edad" class="label">Edad</label>
         </div>
         <div class="col-6">
-            <input type="number" id="edad" name="edad" class="col-2">
+            <input type="number" id="edad" name="edad" class="col-8">
         </div>
 
         <div>
             <button class="boton">Enviar</button>
         </div>
 
-
+        <div class="mensaje"></div>
+        <div class="mensajeError centrado">
+            
+        </div>
     </div>
 
-    <p class="mensaje"></p>
+    
     
     <script src="script/a_28.js"></script>
 </body>
