@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: aquamarine;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+}
+.titulo{
+    text-align: center;
+}
+
+.horario{
+    font-size: 20px;
+    text-align: center;
+}
+
+.boton{
+    background-color: rgb(133, 133, 226);
+}
