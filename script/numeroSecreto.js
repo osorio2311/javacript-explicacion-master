@@ -8,9 +8,11 @@ while(!acertado){
         alert("El número debe ser menor");
     }else if(numeroSecreto>numeroUser){
         alert("El número deber ser mayor")
-    }else{
+    }else if(numeroSecreto==numeroUser){
         alert("Has acertado!....");
         acertado=true;
+    }else{
+        alert("No has escrito un número... Intentalo de nuevo")
     }
 
 }
